@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - AGG</title>
+    <link href="Content/g/bootstrap.css" rel="stylesheet"/>
+<link href="Content/g/site.css" rel="stylesheet"/>
+
+    <script src="Scripts/modernizr-2.6.2.js"></script>
+
+    <script src="Scripts/jquery-1.10.2.js"></script>
+
+    <script src="Scripts/bootstrap.js"></script>
+<script src="Scripts/respond.js"></script>
+
+    <script src="Scripts/knockout-3.2.0.js"></script>
+<script src="Scripts/sammy-0.7.5.js"></script>
+
+</head>
+<body>
+<form id="fileupload" action="/AnimatedGifs/FileHandler" method="POST" enctype="multipart/form-data">
+    <input type="file" name="files[]" multiple>
+    <button type="submit" class="start">Start upload</button>
+</form>
+
+<script src="Scripts/FileUpload/jqueryui/jquery.ui.widget.js"></script>
+<script src="Scripts/FileUpload/jquery.iframe-transport.js"></script>
+<script src="Scripts/FileUpload/jqueryui/jquery.fileupload.js"></script>
+<script src="Scripts/FileUpload/jquery.fileupload-fp.js"></script>
+<script src="Scripts/FileUpload/jquery.fileupload-process.js"></script>
+<script src="Scripts/FileUpload/jqueryui/jquery.fileupload-ui.js"></script>
+<script src="Scripts/FileUpload/load-image.debug.js"></script>
+<script src="Scripts/FileUpload/jquery.fileupload-image.js"></script>
+
+<script src="AGGViewModel.js"></script>
+
+</body>
+</html>
+
