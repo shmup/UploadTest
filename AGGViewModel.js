@@ -29,14 +29,13 @@
         });
     }).run();
 
-
     // Initialize the jQuery File Upload widget:
     $('#fileupload').fileupload({
-        url: '/AnimatedGifs/FileHandler',
- //       loadImageFileTypes: /^image\/(gif)$/, // Allowed file types
- //       acceptFileTypes: /(\.|\/)(gif)$/i
+        replaceFileInput: false
+        // url: '/AnimatedGifs/FileHandler',
+        // loadImageFileTypes: /^image\/(gif)$/, // Allowed file types
+        // acceptFileTypes: /(\.|\/)(gif)$/i
     });
- 
 }
 
 ko.applyBindings(new AGGViewModel());
